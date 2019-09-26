@@ -58,3 +58,15 @@ h2 {
 .section-three {
   background-color: #ebeced;
 }
+.icon {
+  padding: 10px;
+  font-size: 20px;
+}
+.icon:hover {
+  background-color: #7FDBFF;
+}
+.developer-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
