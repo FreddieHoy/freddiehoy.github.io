@@ -27,9 +27,23 @@ a:hover {
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
   padding: 10px 30px;
-  display: flex;
-  justify-content: flex-end;
+  /* display: flex;
+  justify-content: flex-start; */
   z-index: 1;
+}
+.nav-items {
+  display: none;
+  border-bottom: 1px solid black;
+}
+.nav-column-one {
+  flex-grow: 1;
+}
+.nav-column-two {
+  flex-grow: 1;
+}
+.burgermenu {
+  font-size: 20px;
+  padding: 0;
 }
 .navbar > a {
   padding: 0 5px;

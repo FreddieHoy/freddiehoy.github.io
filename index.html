@@ -7,14 +7,27 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <script src="https://kit.fontawesome.com/47f8672896.js" crossorigin="anonymous"></script>
+    <script src="app.js" charset="utf-8"></script>
     <title>Freddie Hoy</title>
   </head>
   <body>
-    <div class="navbar">
-      <a href='#profile'>Profile</a>
-      <a href='#experience'>Experience</a>
-      <a href='#contact'>Contact</a>
-    </div>
+    <nav class="navbar">
+      <i class="fas fa-bars burgermenu"></i>
+
+      <div class="nav-items">
+        <div class="nav-column-one">
+          <p><a href='#profile'>Profile</a>
+          <p><a href='#skills'>Skills</a>
+          <p><a href='#experience'>Experience</a></p>
+        </div>
+        <div class="nav-column-two">
+          <p><a href='#education'>Education</a></p>
+          <p><a href='#interests'>Interests</a></p>
+          <p><a href='#contact'>Contact</a></p>
+        </div>
+      </div>
+      <a href="#menu-toggle" class="backdrop" hidden></a>
+    </nav>
 
     <section class="section-one">
       <div class="">
@@ -39,7 +52,7 @@
 
       </div>
     </section>
-    <section class="section-three">
+    <section id="skills" class="section-three">
       <h1>Skills</h1>
       <div class="developer-skills">
         <div class="icon">
@@ -151,7 +164,7 @@
       </div>
 
     </section>
-    <section class="section-five">
+    <section id="education" class="section-five">
       <h1>Education</h1>
       <div class="">
         <p><span class="text-bold">Software Engineering Immersive.</span> General Assembly London, 3 months June-Sept 2019, London.</p>
@@ -162,7 +175,7 @@
         </ul>
       </div>
     </section>
-    <section class="section-six">
+    <section id="interests" class="section-six">
       <h1>Interests</h1>
       <p><span class="text-bold">Cycling</span> - Has been my most recent passion and project. In September 2017, I organized a completely self- sufficient bike tour for 9 days cycling from Nice, France to Barcelona, Spain. The cycle took 8 days covering 900km. Along with 2 university friends, we raised £3,500 for charity in memory of our family members who have affected by cancer. <br />
       <a href="https://www.justgiving.com/fundraising/cyclelemedntob">Just Giving page</a></p>
