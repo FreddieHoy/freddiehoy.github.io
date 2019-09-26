@@ -16,6 +16,8 @@ section {
 } */
 a {
   text-decoration: none;
+}
+a:hover {
   color: black;
 }
 .navbar {
@@ -32,6 +34,7 @@ a {
 .navbar > a {
   padding: 0 5px;
   border-bottom: 1px solid black;
+  color: black;
 }
 .section-one {
   background-color: #7FDBFF;
@@ -62,7 +65,7 @@ h2 {
 }
 .icon {
   padding: 10px;
-  font-size: 20px;
+  font-size: 16px;
 }
 .icon:hover {
   background-color: #7FDBFF;
@@ -88,6 +91,12 @@ h2 {
 .section-five {
   background-color: #ebeced;
 }
+.text-bold {
+  font-weight: bold;
+}
 .section-six {
   background-color: #ffd0cb;
+}
+.section-seven {
+  background-color: #ebeced;
 }
