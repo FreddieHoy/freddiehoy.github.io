@@ -9,7 +9,7 @@ html {
   scroll-behavior: smooth;
 }
 section {
-  padding: 40px 10%;
+  padding: 20px 10%;
   border-bottom: 20px solid #baecff;
 }
 a {
@@ -105,7 +105,7 @@ p {
   background-position: top;
   background-size: cover;
   width: 50vw;
-  height: 60vh;
+  height: 35vh;
   margin: 20px auto;
 }
 .section-three {
@@ -138,7 +138,7 @@ p {
   border: 4px grey;
 }
 .ga-projects > div {
-  margin-bottom: 50px;
+  margin: 20px 0;
 }
 .card {
   padding: 20px;
@@ -186,13 +186,6 @@ p {
 .text-center {
   text-align: center;
 }
-
-
-
-
-
-
-
 
 @media screen and (min-width: 846px), print {
 
@@ -260,7 +253,7 @@ p {
   }
   .ga-projects > div {
     width: 48%;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
   }
   .ga-projects > div > h3 {
     font-size: 22px;
