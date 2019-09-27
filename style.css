@@ -13,14 +13,17 @@ section {
 }
 a {
   text-decoration: none;
-  color: #4a4a4a;
+  color: black;
 }
 a:hover {
-  color: black;
+  color: #4a4a4a;
+}
+.title-tag {
+  text-decoration: none;
 }
 .navbar {
   overflow: hidden;
-  background-color: #7FDBFF;
+  background-color: #94e0fd;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -52,7 +55,7 @@ a:hover {
   background-color: white;
 }
 .section-one {
-  background-color: #7FDBFF;
+  background-color: #94e0fd;
   position: relative;
   width: 100vw;
   height: 100vh;
@@ -63,6 +66,8 @@ h1 {
   font-size: 34px;
 }
 h2 {
+  margin: 0;
+  padding: 20px 0;
   font-size: 18px;
 }
 h3 {
@@ -74,8 +79,11 @@ p {
 .section-two {
   background-color: #fafafa;
 }
+.profile-info {
+  text-align: justify;
+}
 .headshot {
-  border-radius: 60px;
+  border-radius: 20px;
   background-image: url("images/headshot.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -85,7 +93,7 @@ p {
   margin: 20px auto;
 }
 .section-three {
-  background-color: #7FDBFF;
+  background-color: #94e0fd;
 }
 .icon {
   padding: 10px;
@@ -94,6 +102,7 @@ p {
   width: 45%;
   height: 40px;
   border: 1px solid black;
+  border-radius: 20px;
 }
 .icon:hover {
   background-color: #fafafa;
@@ -101,20 +110,25 @@ p {
 .developer-skills {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .section-four {
   background-color: #fafafa;
 }
+.section-four > div {
+  text-align: center;
+  border: 4px grey;
+}
+.ga-projects > div {
+  margin-bottom: 50px;
+}
 .flexbox {
   display: flex;
-  align-items: center;
+  text-align: center;
 }
 .empty-project {
-  height: 40vh;
+  height: 10vh;
   text-align: center;
-  display: flex;
-  align-items: center;
 }
 .shadow {
   box-shadow: 0px 0px 10px 0px rgba(55,55,55,0.3)
@@ -130,7 +144,7 @@ p {
   height: auto;
 }
 .section-five {
-  background-color: #7FDBFF;
+  background-color: #94e0fd;
 }
 .text-bold {
   font-weight: bold;
@@ -139,11 +153,75 @@ p {
   background-color: #fafafa;
 }
 .section-seven {
-  background-color: #7FDBFF;
+  background-color: #94e0fd;
 }
 .email {
   font-size: 18px;
 }
 .text-center {
   text-align: center;
+}
+@media screen and (min-width: 846px), print {
+
+  section {
+    padding: 40px 200px;
+  }
+  .navbar {
+    padding: 20px 200px;
+  }
+  .burgermenu {
+    display: none;
+  }
+  .navitems {
+    display: block;
+  }
+  .titlename {
+    margin-bottom: 0;
+  }
+  h1 {
+    font-size: 34px;
+  }
+  h2 {
+    margin: 0;
+    padding: 20px 0;
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .section-two {
+    display: flex;
+  }
+  .profile-info {
+    width: 50%;
+  }
+  .headshot {
+    width: 30vw;
+    height: 60vh;
+    margin: 40px;
+  }
+  .icon {
+    text-align: center;
+    padding: 15px 0;
+    width: 24%;
+    height: 50px;
+  }
+  .empty-project {
+    height: 10vh;
+  }
+  .ga-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .ga-projects > div {
+    width: 48%;
+    padding-bottom: 40px;
+  }
+  .ga-projects > div > h3 {
+    font-size: 22px;
+  }
 }
