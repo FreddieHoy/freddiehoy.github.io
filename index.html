@@ -12,27 +12,31 @@
   </head>
   <body>
     <nav class="navbar">
-      <i class="fas fa-bars burgermenu"></i>
+      <i class="fas fa-bars" id="burgermenu"></i>
 
       <div class="nav-items">
-        <div class="nav-column-one">
-          <p><a href='#profile'>Profile</a></p>
-          <p><a href='#skills'>Skills</a></p>
-          <p><a href='#experience'>Experience</a></p>
-        </div>
-        <div class="nav-column-two">
-          <p><a href='#education'>Education</a></p>
-          <p><a href='#interests'>Interests</a></p>
-          <p><a href='#contact'>Contact</a></p>
-        </div>
+        <p><a href='#profile'>Profile</a></p>
+        <p><a href='#skills'>Skills</a></p>
+        <p><a href='#experience'>Experience</a></p>
+        <p><a href='#education'>Education</a></p>
+        <p><a href='#interests'>Interests</a></p>
       </div>
       <a href="#menu-toggle" class="backdrop" hidden></a>
     </nav>
 
     <section class="section-one">
       <div>
-        <h1 class="titlename">Freddie Hoy <a href="https://github.com/FreddieHoy"><i class="devicon-github-plain"></i></a></h1>
-        <h2 class="title-tag">Software Engineer | <a href="https://www.justgiving.com/fundraising/cyclelemedntob">Adventure Cyclist</a></h2>
+        <h1 class="titlename">Freddie Hoy
+          <a href="https://github.com/FreddieHoy"><i class="devicon-github-plain"></i></a>
+          <a href="https://www.linkedin.com/in/freddie-hoy/"><i class="fab fa-linkedin"></i></a>
+        </h1>
+        <h2 class="title-tag">Software Engineer |
+          <a href="https://www.justgiving.com/fundraising/cyclelemedntob">Adventure Cyclist</a><br />
+        </h2>
+        <h2>London</h2>
+        <a href="mailto:freddiehoy0@gmail.com" class="email">[freddiehoy0@gmail.com]</a>
+        <br />
+        <p>[+447775426410]</p>
       </div>
     </section>
 
@@ -109,15 +113,15 @@
     </section>
     <section id="experience" class="section-four">
       <h2>Experience</h2>
-      <h3 class="text-center">Current Project</h3>
+      <h3>Current Project</h3>
 
-      <div class="empty-project">
-        JavaScript Pathfinder. More info to follow..
+      <div class="empty-project shadow card">
+        <h3>JavaScript Pathfinder.<br /> More info to follow..</h3>
       </div>
 
-      <h3 class="text-center">GA Projects</h3>
+      <h3>GA Projects</h3>
       <div class="ga-projects">
-        <div>
+        <div class="shadow card">
           <h3>GA Project 4: YesChef <a href="https://sei42-yes-chef.herokuapp.com/"><i class="fas fa-link"></i></a>
           <a href="https://github.com/FreddieHoy/project-04/blob/master/README.md"><i class="fab fa-github-square"></i></a></h3>
 
@@ -140,7 +144,7 @@
         </div>
 
 
-        <div>
+        <div class="shadow card">
           <h3>GA Project 3: Lost the Plot <a href="https://lost-the-plot-sei42.herokuapp.com"><i class="fas fa-link"></i></a>
           <a href="https://github.com/FreddieHoy/project-03/blob/master/README.md"><i class="fab fa-github-square"></i></a></h3>
           <p>Full Stack, Group of 4, using Git, 7 days.</p>
@@ -163,7 +167,7 @@
         </div>
 
 
-        <div>
+        <div class="shadow card">
           <h3>GA Project 2: Bored Games <a href="https://freddiehoy.github.io/project-2/#/"><i class="fas fa-link"></i></a>
           <a href="https://github.com/FreddieHoy/project-2/blob/master/readme.md"><i class="fab fa-github-square"></i></a></h3>
           <p>Pair coded, 48 Hour hackathon.</p>
@@ -181,7 +185,7 @@
 
         </div>
 
-        <div>
+        <div class="shadow card">
           <h3>GA Project 1: PacMan <a href="https://freddiehoy.github.io/PacMan/"><i class="fas fa-link"></i>
           <a href="https://github.com/FreddieHoy/PacMan/blob/master/readme.md"><i class="fab fa-github-square"></i></a></h3>
           <p>JavaScript game, Solo project, 7 days.</p>
@@ -200,7 +204,7 @@
     </section>
     <section id="education" class="section-five">
       <h2>Education</h2>
-      <div class="">
+      <div class="shadow card">
         <p><span class="text-bold">Software Engineering Immersive.</span> General Assembly London, 3 months June-Sept 2019, London.</p>
         <p><span class="text-bold">Masters in Mechanical Engineering.</span> MEng. The University of Nottingham. 4-year 2014-2018. Graduated 1st class with Honours (75%).</p>
       </div>
@@ -208,29 +212,23 @@
 
     <section id="interests" class="section-six">
       <h2>Interests</h2>
-      <h3>Cycling - <a href="https://www.justgiving.com/fundraising/cyclelemedntob" class="text-underline">Just Giving page</a></h3>
-      <p>In September 2017, I organized a completely self- sufficient bike tour for 9 days cycling from Nice, France to Barcelona, Spain. The cycle took 8 days covering 900km. Along with 2 university friends, we raised £3,500 for charity in memory of our family members who have affected by cancer.</p>
-
-      <h3>Sports, Travlling & Music!</h3>
-      <p>I played hockey for the University of Nottingham.
-      I am part of a Sunday leauge football team that won the 2018-19 South London cup final.
-      In 2013 I became a qualified ski instructor. I completed over 24 scuba Dives.
-      Ive been trying to teach myself guitar for a year now!</p>
+      <div class="shadow card">
+        <h3>Cycling - <a href="https://www.justgiving.com/fundraising/cyclelemedntob" class="text-underline">Just Giving page</a></h3>
+        <p>In September 2017, I organized a completely self- sufficient bike tour for 9 days cycling from Nice, France to Barcelona, Spain. The cycle took 8 days covering 900km. Along with 2 university friends, we raised £3,500 for charity in memory of our family members who have affected by cancer.</p>
+      </div>
+      <br />
+      <div class="shadow card">
+        <h3>Sports, Travlling & Music!</h3>
+        <p>I played hockey for the University of Nottingham.
+          I am part of a Sunday leauge football team that won the 2018-19 South London cup final.
+          In 2013 I became a qualified ski instructor. I completed over 24 scuba Dives.
+          Ive been trying to teach myself guitar for a year now!</p>
+        </div>
     </section>
+    <h2 class="text-center section-seven">Made by Freddie Hoy <a href="https://github.com/FreddieHoy"><i class="devicon-github-plain"></i></a>
+      <a href="https://www.linkedin.com/in/freddie-hoy/"><i class="fab fa-linkedin"></i></a></h2>
 
-    <section id="contact" class="section-seven">
-      <h2 class="flexbox">Contact</h2>
-      <h3></h3>
-      <h1>
-        <a href="https://github.com/FreddieHoy"><i class="devicon-github-plain"></i></a>
-        <a href="https://www.linkedin.com/in/freddie-hoy/"><i class="fab fa-linkedin"></i></a>
-        <br /></h1>
-        <a href="mailto:freddiehoy0@gmail.com" class="email">[freddiehoy0@gmail.com]</a><br />
-        <h2>[+447775426410]</h2>
 
-      <hr />
-      <h2 class="text-center">Thanks, Fred 😁</h2>
-    </section>
 
 
 

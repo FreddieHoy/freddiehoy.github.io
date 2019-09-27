@@ -1,21 +1,29 @@
 
 
 document.addEventListener('DOMContentLoaded', () => {
-  const burgermenu = document.querySelector('.burgermenu')
+  const burgermenu = document.getElementById('burgermenu')
   const navitems = document.querySelector('.nav-items')
-  console.log(navitems.style.display)
+  const mq = window.matchMedia( '(max-width: 856px)' )
 
 
   burgermenu.addEventListener('click', () => {
     if (navitems.style.display === 'none' || navitems.style.display === '') {
-      navitems.style.display = 'flex'
-    } else if (navitems.style.display === 'flex') {
+      navitems.style.display = 'block'
+    } else if (navitems.style.display === 'block') {
       navitems.style.display = 'none'
     }
   })
 
   navitems.addEventListener('click', () => {
-    navitems.style.display = 'none'
+    if (mq.matches) {
+      // window width is at less than 570px
+      navitems.style.display = 'none'
+    }
   })
 
 })
+
+//
+// else {
+//     // window width is greater than 570px
+// }
