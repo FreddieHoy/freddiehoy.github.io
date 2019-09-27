@@ -36,11 +36,12 @@ a:hover {
   z-index: 1;
 }
 .nav-items {
-  padding-top: 5px;
+  padding: 5px 0;
   margin-top: 10px;
   background-color: white;
   display: none;
   width: 40%;
+  border-bottom: 2px solid black;
 }
 #burgermenu {
   font-size: 20px;
@@ -169,10 +170,18 @@ p {
 .text-center {
   text-align: center;
 }
+
+
+
+
+
+
+
+
 @media screen and (min-width: 846px), print {
 
   section {
-    padding: 50px 20%;
+    padding: 50px 15%;
   }
   #burgermenu {
     display: none;
@@ -234,4 +243,5 @@ p {
   .ga-projects > div > h3 {
     font-size: 22px;
   }
+
 }
