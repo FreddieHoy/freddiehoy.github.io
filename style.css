@@ -24,7 +24,16 @@ a:hover {
   padding-bottom: 0;
 }
 .titlename {
-  margin-bottom: 0;
+  margin: 0;
+}
+.phone-number {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.section-one > div {
+  padding-left: 10px;
+  margin-top: 80px;
+  border-left: 4px solid black;
 }
 .navbar {
   overflow: hidden;
@@ -32,7 +41,7 @@ a:hover {
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
-  padding: 15px 30px;
+  padding: 15px 10%;
   z-index: 1;
 }
 .nav-items {
@@ -187,23 +196,24 @@ p {
     display: none;
   }
   .navbar {
-    padding: 0;
+    padding: 0 15%;
     display: block;
   }
   .nav-items {
     background-color: #94e0fd;
-    margin: 0 20%;
+    margin: 0;
     display: flex;
-    justify-content: space-between;
-    width: 50%;
+    justify-content: flex-end;
+    width: 100%;
     border: none;
+    padding: 0;
   }
   h1 {
     font-size: 34px;
   }
   h2 {
     margin: 0;
-    padding: 20px 0;
+    padding: 15px 0;
     font-size: 24px;
   }
   h3 {
@@ -211,6 +221,9 @@ p {
   }
   p {
     font-size: 18px;
+  }
+  .titlename {
+    margin-top: 0;
   }
   .section-two {
     display: flex;
