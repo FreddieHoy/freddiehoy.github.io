@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const navitems = document.querySelector('.nav-items')
   const mq = window.matchMedia( '(max-width: 856px)' )
 
-
   burgermenu.addEventListener('click', () => {
     if (navitems.style.display === 'none' || navitems.style.display === '') {
       navitems.style.display = 'block'
@@ -21,9 +20,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   })
 
-})
 
-//
-// else {
-//     // window width is greater than 570px
-// }
+
+})

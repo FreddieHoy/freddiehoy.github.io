@@ -27,10 +27,6 @@ a:hover {
 .titlename {
   margin: 0;
 }
-.phone-number {
-  margin-top: 15px;
-  margin-bottom: 5px;
-}
 .section-one > div {
   margin-top: 80px;
   padding-left: 10px;
@@ -187,6 +183,21 @@ p {
   text-align: center;
 }
 
+.section-two {
+  display: none;
+}
+.section-two-fade {
+  display: flex;
+}
+.section-three {
+  display: none;
+}
+.section-three-fade {
+  background-color: #94e0fd;
+  display: block;
+}
+
+
 @media screen and (min-width: 846px), print {
 
   section {
@@ -258,5 +269,4 @@ p {
   .ga-projects > div > h3 {
     font-size: 22px;
   }
-
 }
