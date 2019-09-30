@@ -16,26 +16,24 @@ a {
   text-decoration: none;
   color: black;
 }
-
 a:hover {
   color: #4a4a4a;
 }
-.title-tag {
-  text-decoration: none;
-  padding-bottom: 0;
+h1 {
+  font-size: 34px;
 }
-.titlename {
+h2 {
   margin: 0;
+  padding: 20px 0;
+  font-size: 18px;
 }
-.section-one > div {
-  margin-top: 80px;
-  padding-left: 10px;
-  border-left: 4px solid black;
+h3 {
+  font-size: 16px;
 }
-.sidebar {
-  padding-left: 10px;
-  border-left: 4px solid black;
+p {
+  font-size: 14px;
 }
+/* ------------------navbar-------------- */
 .navbar {
   overflow: hidden;
   background-color: #94e0fd;
@@ -66,6 +64,7 @@ a:hover {
 .nav-items * > *:hover {
   color: white;
 }
+/* --------Section One ----------------- */
 .section-one {
   background-color: #94e0fd;
   position: relative;
@@ -74,20 +73,30 @@ a:hover {
   display: flex;
   align-items: center;
 }
-h1 {
-  font-size: 34px;
+.section-one > div {
+  margin-top: 80px;
+  padding-left: 10px;
+  border-left: 4px solid black;
 }
-h2 {
+.title-tag {
+  text-decoration: none;
+  padding-bottom: 0;
+}
+.titlename {
   margin: 0;
-  padding: 20px 0;
+}
+.location {
   font-size: 18px;
 }
-h3 {
-  font-size: 16px;
+.email {
+  font-size: 18px;
+  padding-top: 20px;
 }
-p {
-  font-size: 14px;
+.sidebar {
+  padding-left: 10px;
+  border-left: 4px solid black;
 }
+/* -------------------Profile----------- */
 .section-two {
   background-color: #fafafa;
 }
@@ -104,6 +113,7 @@ p {
   height: 250px;
   margin: 20px auto;
 }
+/* ---------------- Skills -------------- */
 .section-three {
   background-color: #94e0fd;
 }
@@ -125,6 +135,7 @@ p {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+/* ------------------Experience------------ */
 .section-four {
   background-color: #fafafa;
   top: -100px;
@@ -144,13 +155,13 @@ p {
   display: flex;
   text-align: center;
 }
-.empty-project {
+/* .empty-project {
   text-align: center;
   height: 80px;
 }
 .empty-project > h3 {
   margin: auto 0;
-}
+} */
 .shadow {
   box-shadow: 0px 0px 5px 0px rgba(55,55,55,0.3)
 }
@@ -164,6 +175,7 @@ p {
   width: 100%;
   height: auto;
 }
+/* ---------Education, Interests, Footer --------- */
 .section-five {
   background-color: #94e0fd;
 }
@@ -176,20 +188,12 @@ p {
 .section-seven {
   background-color: #94e0fd;
 }
-.email {
-  font-size: 18px;
-  padding-top: 20px;
-}
-.location {
-  font-size: 18px;
-}
 .text-center {
   text-align: center;
 }
 
-
+/* -------------responsive--------- */
 @media screen and (min-width: 846px), print {
-
   section {
     padding: 50px 15%;
   }
