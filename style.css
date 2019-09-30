@@ -10,14 +10,14 @@ html {
 }
 section {
   padding: 20px 10%;
-  border-bottom: 20px solid #baecff;
+  border-bottom: 20px solid #F3D250;
 }
 a {
   text-decoration: none;
-  color: black;
+  color: #24305E;
 }
 h1, h2, h3 {
-  color: black;
+  color: #24305E;
 }
 a:hover {
   color: lightgrey;
@@ -36,7 +36,7 @@ p {
 /* ------------------navbar-------------- */
 .navbar {
   overflow: hidden;
-  background-color: #2098d1;
+  background-color: #90CCF4;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -58,7 +58,7 @@ p {
   margin-top: 10px;
   display: none;
   width: 80%;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #24305E;
   text-align: right;
 }
 .nav-items > a {
@@ -71,15 +71,15 @@ p {
   padding: 0;
   margin: 0 10px;
   font-size: 20px;
-  color: black;
+  color: #24305E;
 }
 .nav-items * > *:hover {
-  color: black;
-  border-bottom: 2px solid black;
+  color: #24305E;
+  border-bottom: 2px solid #24305E;
 }
 /* --------Section One ----------------- */
 .section-one {
-  background-color: #2098d1;
+  background-color: #90CCF4;
   position: relative;
   width: 100vw;
   height: 100vh;
@@ -89,7 +89,7 @@ p {
 .section-one > div {
   margin: 50px 0 50px 0;
   padding-left: 10px;
-  border-left: 4px solid black;
+  border-left: 4px solid #24305E;
 }
 .titlename {
   margin: 0;
@@ -110,21 +110,21 @@ p {
 }
 .sidebar-white {
   padding-left: 10px;
-  border-left: 4px solid black;
+  border-left: 4px solid #24305E;
 }
-.sidebar-black {
+.sidebar-dark {
   padding-left: 10px;
-  border-left: 4px solid black;
+  border-left: 4px solid #24305E;
 }
 /* -------------------Profile----------- */
 .section-two {
-  background-color: #fafafa;
+  background-color: #F78888;
 }
 .profile-info {
   text-align: justify;
 }
 .profile-info > h2 {
-  color: black;
+  color: #24305E;
 }
 .headshot {
   border-radius: 20px;
@@ -138,14 +138,14 @@ p {
 }
 /* ---------------- Skills -------------- */
 .section-three {
-  background-color: #2098d1;
+  background-color: #90CCF4;
 }
 .icon {
   padding: 10px;
   font-size: 16px;
   width: 48%;
   height: 40px;
-  border: 1px solid black;
+  border: 1px solid #24305E;
   border-radius: 20px;
   text-align: center;
 }
@@ -159,7 +159,7 @@ p {
 }
 /* ------------------Experience------------ */
 .section-four {
-  background-color: #fafafa;
+  background-color: #F78888;
   top: -100px;
 }
 .section-four > div {
@@ -167,17 +167,17 @@ p {
   border: 4px grey;
 }
 .section-four > h2 {
-  color: black;
+  color: #24305E;
 }
 .ga-projects > div {
   margin: 10px 0;
 }
 .ga-projects > div > h3 {
-  color: black;
+  color: #24305E;
   margin-top: 10px;
 }
 .ga-projects > div > h3 > a {
-  color: black;
+  color: #24305E;
 }
 .card {
   padding: 20px;
@@ -209,16 +209,16 @@ p {
 }
 /* ---------Education, Interests, Footer --------- */
 .section-five {
-  background-color: #2098d1;
+  background-color: #90CCF4;
 }
 .text-bold {
   font-weight: bold;
 }
 .section-six {
-  background-color: #fafafa;
+  background-color: #F78888;
 }
 .section-seven {
-  background-color: #2098d1;
+  background-color: #90CCF4;
 }
 .text-center {
   text-align: center;
@@ -237,7 +237,7 @@ p {
     display: block;
   }
   .nav-items {
-    background-color: #2098d1;
+    background-color: #90CCF4;
     margin: 0;
     display: flex;
     justify-content: flex-start;
