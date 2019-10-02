@@ -113,7 +113,7 @@ p {
   border-left: 4px solid black;
 }
 .startarrow {
-  padding: 120px 0 0 0;
+  padding: 80px 0 0 0;
   width: 100%;
   text-align: center;
 }
@@ -345,6 +345,9 @@ p {
   .section-one > div {
     padding: 0 auto;
     margin: 0;
+  }
+  .startarrow {
+    padding: 120px 0 0 0;
   }
   .section-two {
     display: flex;
