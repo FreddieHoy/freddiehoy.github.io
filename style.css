@@ -46,7 +46,7 @@ p {
   flex-wrap: wrap;
 }
 #burgermenu {
-  font-size: 40px;
+  font-size: 30px;
   margin-top: 20px;
 }
 .navhome {
@@ -54,7 +54,7 @@ p {
 }
 .nav-items {
   margin-left: 10px;
-  padding: 5px 0;
+  padding: 0;
   margin-top: 10px;
   display: none;
   width: 80%;
@@ -82,14 +82,12 @@ p {
   background-color: #2098d1;
   position: relative;
   width: 100vw;
-  height: 100vh;
+  height: 95vh;
   display: flex;
-  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
 }
-.section-one > div {
-  margin: 50px 0 50px 0;
-  padding-left: 10px;
-  border-left: 4px solid black;
+.titlebox {
 }
 .titlename {
   margin: 0;
@@ -115,6 +113,28 @@ p {
 .sidebar-dark {
   padding-left: 10px;
   border-left: 4px solid black;
+}
+.startarrow {
+  padding: 80px 0 0 0;
+  width: 100%;
+  text-align: center;
+}
+.startarrow > h2 {
+  padding: 0;
+}
+/*arrow move up and down */
+.fa-chevron-down {
+  -webkit-animation: MoveUpDown 1s linear infinite alternate;
+  animation: MoveUpDown 1s linear infinite alternate;
+  font-size: 50px;
+}
+@-webkit-keyframes MoveUpDown {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-16px); }
 }
 /* -------------------Profile----------- */
 .section-two {
@@ -224,6 +244,49 @@ p {
 .text-center {
   text-align: center;
 }
+/* ------------------- fade animations */
+.fadeinstart {
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+  -o-animation: fadein 2s; /* Opera < 12.1 */
+  animation: fadein 2s;
+
+  animation: 2s ease-out 0s 1 slideInFromLeft;
+
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-30%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.fade-left {
+  opacity: 0;
+  transition: opacity 2s;
+  transform: translate(-40px, 0);
+  transition: all 1s;
+}
+.fade-right {
+  opacity: 0;
+  transition: opacity 2s;
+  transform: translate(40px, 0);
+  transition: all 1s;
+}
+.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
 
 /* -------------responsive--------- */
 @media screen and (min-width: 846px), print {
@@ -275,7 +338,6 @@ p {
     margin-top: 0;
   }
   .section-one {
-    height: 50vh;
   }
   .section-one > div {
     padding: 0 auto;

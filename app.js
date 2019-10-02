@@ -20,6 +20,36 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   })
 
+  $(document).on('scroll', function () {
+    const pageTop = $(document).scrollTop()
+    const pageBottom = pageTop + ($(window).height() - 100)
+    const tags = $('.fade-left')
+
+    for (let i = 0; i < tags.length; i++) {
+      const tag = tags[i]
+
+      if ($(tag).position().top < pageBottom && $(tag).position().top > pageTop) {
+        $(tag).addClass('visible')
+      } else {
+        $(tag).removeClass('visible')
+      }
+    }
+  })
+  $(document).on('scroll', function () {
+    const pageTop = $(document).scrollTop()
+    const pageBottom = pageTop + ($(window).height() - 100)
+    const tags = $('.fade-right')
+
+    for (let i = 0; i < tags.length; i++) {
+      const tag = tags[i]
+
+      if ($(tag).position().top < pageBottom && $(tag).position().top > pageTop) {
+        $(tag).addClass('visible')
+      } else {
+        $(tag).removeClass('visible')
+      }
+    }
+  })
 
 
 })
