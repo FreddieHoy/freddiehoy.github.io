@@ -341,6 +341,7 @@ p {
     margin-top: 0;
   }
   .section-one {
+    height: 85vh;
   }
   .section-one > div {
     padding: 0 auto;
