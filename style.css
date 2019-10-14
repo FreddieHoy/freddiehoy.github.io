@@ -75,6 +75,17 @@ p {
   color: black;
   border-bottom: 2px solid black;
 }
+/* this accounts for nav bar on scroll */
+section:before {
+  height: 30px;
+  display: block;
+  content: '';
+}
+section:after {
+  height: 30px;
+  display: block;
+  content: '';
+}
 /* --------Section One ----------------- */
 .section-one {
   background-color: #2098d1;
@@ -388,5 +399,11 @@ p {
   }
   .footer-contact > a {
     display: inline;
+  }
+  section:before {
+    display: none;
+  }
+  section:after {
+    display: block;
   }
 }
