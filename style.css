@@ -217,13 +217,6 @@ section:after {
   display: flex;
   text-align: center;
 }
-/* .empty-project {
-  text-align: center;
-  height: 80px;
-}
-.empty-project > h3 {
-  margin: auto 0;
-} */
 .shadow {
   box-shadow: 0px 0px 5px 0px rgba(55,55,55,0.3)
 }
@@ -352,7 +345,7 @@ section:after {
     margin-top: 0;
   }
   .section-one {
-    height: 90vh;
+    height: 96vh;
   }
   .section-one > div {
     padding: 0 auto;
