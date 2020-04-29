@@ -3,8 +3,7 @@
 }
 body {
   margin: 0;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-  background-color: #5CDB95;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
 }
 .container {
   display: flex;
@@ -12,10 +11,9 @@ body {
 .content {
   padding: 40px;
   margin: 100px auto;
-  border-radius: 10px;
-  color: #EDF5E1;
-  background-color: #05386B;
-
+  border-radius: 2px;
+  color: #edf5e1;
+  background-color: #05386b;
 }
 .message {
   margin-bottom: 50px;
@@ -32,7 +30,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #5CDB95;
+  color: #5cdb95;
 }
 .email {
   font-size: 18px;
